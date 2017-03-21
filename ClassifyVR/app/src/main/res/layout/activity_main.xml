@@ -23,7 +23,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:srcCompat="@drawable/vr"
+            app:srcCompat="@drawable/vrbook"
             android:layout_weight="1"
             android:id="@+id/imageView" />
 
