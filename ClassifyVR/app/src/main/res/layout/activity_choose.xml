@@ -1,108 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark">
 
+
+
+
+
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:orientation="horizontal"
-        android:layout_weight="1" >
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0" >
 
         <Button
-            android:text="My Schedule"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
-            android:shadowRadius="30.0"
+            android:shadowRadius="100"
             android:id="@+id/buttonSchedule"
-            android:background="@drawable/scheduleimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/schbanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1" />
 
         <Button
             android:text="Classes"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
-            android:shadowRadius="30.0"
+            android:shadowRadius="100"
             android:id="@+id/buttonClasses"
-            android:background="@drawable/classimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/classimage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:orientation="horizontal"
-        android:layout_weight="1" >
 
         <Button
             android:text="Sports"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="30.0"
             android:id="@+id/buttonSports"
-            android:background="@drawable/sportsimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/sportsbanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1" />
 
         <Button
             android:text="VPAC"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="30.0"
             android:id="@+id/buttonVPAC"
-            android:background="@drawable/vpacimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/vpacbanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:orientation="horizontal"
-        android:layout_weight="1" >
 
         <Button
             android:text="Clubs"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="30.0"
             android:id="@+id/buttonClubs"
-            android:background="@drawable/clubsimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/clubsbanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1" />
 
         <Button
             android:text="Greek"
+            android:layout_margin="5dp"
             android:textColor="#FFFFFF"
+            android:gravity="bottom"
+            android:textSize="20dp"
             android:shadowColor="#000000"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="30.0"
             android:id="@+id/buttonGreek"
-            android:background="@drawable/greeklifeimageblur"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
+            android:background="@drawable/greekbanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_weight="1" />
+
+
+
     </LinearLayout>
-</LinearLayout>
+
+</ScrollView>

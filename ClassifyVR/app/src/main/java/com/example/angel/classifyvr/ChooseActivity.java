@@ -1,10 +1,12 @@
 package com.example.angel.classifyvr;
 
 import android.content.Intent;
+import android.graphics.PorterDuff;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
@@ -31,70 +33,128 @@ public class ChooseActivity extends AppCompatActivity {
     }
 
     public void schedule(){
-        b1.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()== MotionEvent.ACTION_DOWN)
-                   b1.setBackground(getResources().getDrawable(R.drawable.scheduleimage));
-                else  if (arg1.getAction()== MotionEvent.ACTION_UP)
-                    b1.setBackground(getResources().getDrawable(R.drawable.scheduleimageblur));
-                return true;
-            }
-        });
+        //write scheduler
 
     }
 
     public void classes(){
-        b2.setOnTouchListener(new View.OnTouchListener() {
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()==MotionEvent.ACTION_DOWN)
-                    b2.setBackground(getResources().getDrawable(R.drawable.classimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP)
-                    b2.setBackground(getResources().getDrawable(R.drawable.classimageblur));
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this, ClassesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        b2.setOnTouchListener(new View.OnTouchListener() {
+
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        v.getBackground().setColorFilter(0xe06a7db, PorterDuff.Mode.SRC_ATOP);
+                        v.invalidate();
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP: {
+                        v.getBackground().clearColorFilter();
+                        v.invalidate();
+                        break;
+                    }
+                }
+                return false;
             }
         });
 
     }
 
     public void sports(){
-        b3.setOnTouchListener(new View.OnTouchListener() {
+        b3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()==MotionEvent.ACTION_DOWN)
-                    b3.setBackground(getResources().getDrawable(R.drawable.sportsimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP)
-                    b3.setBackground(getResources().getDrawable(R.drawable.sportsimageblur));
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this, SportsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        b3.setOnTouchListener(new View.OnTouchListener() {
+
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        v.getBackground().setColorFilter(0xe06a7db, PorterDuff.Mode.SRC_ATOP);
+                        v.invalidate();
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP: {
+                        v.getBackground().clearColorFilter();
+                        v.invalidate();
+                        break;
+                    }
+                }
+                return false;
             }
         });
 
     }
 
     public void vpac(){
-        b4.setOnTouchListener(new View.OnTouchListener() {
+        b4.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()==MotionEvent.ACTION_DOWN)
-                    b4.setBackground(getResources().getDrawable(R.drawable.vpacimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP)
-                    b4.setBackground(getResources().getDrawable(R.drawable.vpacimageblur));
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this, VPACActivity.class);
+                startActivity(intent);
             }
         });
 
+
+        b4.setOnTouchListener(new View.OnTouchListener() {
+
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        v.getBackground().setColorFilter(0xe06a7db, PorterDuff.Mode.SRC_ATOP);
+                        v.invalidate();
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP: {
+                        v.getBackground().clearColorFilter();
+                        v.invalidate();
+                        break;
+                    }
+                }
+                return false;
+            }
+        });
     }
 
     public void clubs(){
-        b5.setOnTouchListener(new View.OnTouchListener() {
+        b5.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()==MotionEvent.ACTION_DOWN)
-                    b5.setBackground(getResources().getDrawable(R.drawable.clubsimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP)
-                    b5.setBackground(getResources().getDrawable(R.drawable.clubsimageblur));
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this, ClubsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        b5.setOnTouchListener(new View.OnTouchListener() {
+
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        v.getBackground().setColorFilter(0xe06a7db, PorterDuff.Mode.SRC_ATOP);
+                        v.invalidate();
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP: {
+                        v.getBackground().clearColorFilter();
+                        v.invalidate();
+                        break;
+                    }
+                }
+                return false;
             }
         });
 
@@ -106,7 +166,7 @@ public class ChooseActivity extends AppCompatActivity {
             public boolean onTouch(View arg0, MotionEvent arg1) {
                 if (arg1.getAction()==MotionEvent.ACTION_DOWN)
                     b6.setBackground(getResources().getDrawable(R.drawable.greeklifeimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP)
+                else if (arg1.getAction()==MotionEvent.ACTION_UP || arg1.getAction()== MotionEvent.ACTION_MOVE)
                     b6.setBackground(getResources().getDrawable(R.drawable.greeklifeimageblur));
                 return true;
             }
@@ -118,6 +178,8 @@ public class ChooseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         createButtons();
 
         schedule();

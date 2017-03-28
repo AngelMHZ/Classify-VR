@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2D0100">
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0" >
+
+        <Button
+            android:text="Hamilton"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|right"
+            android:textSize="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="100"
+            android:id="@+id/buttonPlay"
+            android:background="@drawable/playvpac"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Cinderella"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|right"
+            android:textSize="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="100"
+            android:id="@+id/buttonDance"
+            android:background="@drawable/dancevpac"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="3rd Orchestra"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|right"
+            android:textSize="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="100"
+            android:id="@+id/buttonOrchestra"
+            android:background="@drawable/orchestravpac"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Book of Muse"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|right"
+            android:textSize="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="100"
+            android:id="@+id/buttonMusical"
+            android:background="@drawable/musicalvpac"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
