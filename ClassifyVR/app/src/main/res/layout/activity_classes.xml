@@ -17,7 +17,8 @@
         android:layout_weight="0" >
 
         <Button
-            android:text="History 255B"
+            android:text="History"
+            android:id="@+id/buttonHistory"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -28,7 +29,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Geology 150L"
+            android:text="Geology"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -39,7 +40,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Art 100"
+            android:text="Art"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -50,7 +51,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="ECE 350"
+            android:text="Engineering"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

@@ -17,7 +17,7 @@
         android:layout_weight="0" >
 
         <Button
-            android:text="Mens BasketBall"
+            android:text="BasketBall"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -28,7 +28,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Womens VolleyBall"
+            android:text="VolleyBall"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -39,7 +39,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Mens Soccer"
+            android:text="Soccer"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -50,7 +50,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Mens Baseball"
+            android:text="Baseball"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

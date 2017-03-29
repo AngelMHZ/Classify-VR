@@ -17,7 +17,7 @@
         android:layout_weight="0" >
 
         <Button
-            android:text="Hamilton"
+            android:text="Plays"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -28,7 +28,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Cinderella"
+            android:text="Ballet"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -39,7 +39,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="3rd Orchestra"
+            android:text="Orchestra"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
@@ -50,7 +50,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Book of Muse"
+            android:text="Musicals"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

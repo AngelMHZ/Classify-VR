@@ -17,7 +17,7 @@
         android:layout_weight="0" >
 
         <Button
-            android:text="Adventure Club"
+            android:text="Travel"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

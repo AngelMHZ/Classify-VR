@@ -20,8 +20,6 @@ public class ChooseActivity extends AppCompatActivity {
 
 
     public void createButtons() {
-        width = getResources().getDisplayMetrics().widthPixels/2;
-        hei=getResources().getDisplayMetrics().heightPixels/3;
 
         b1=(Button) findViewById(R.id.buttonSchedule);
         b2=(Button) findViewById(R.id.buttonClasses);
