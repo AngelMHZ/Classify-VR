@@ -30,7 +30,8 @@
         <activity android:name=".ClassesActivity" />
         <activity android:name=".SportsActivity" />
         <activity android:name=".VPACActivity" />
-        <activity android:name=".ClubsActivity"></activity>
+        <activity android:name=".ClubsActivity" />
+        <activity android:name=".GreekActivity"></activity>
     </application>
 
 </manifest>

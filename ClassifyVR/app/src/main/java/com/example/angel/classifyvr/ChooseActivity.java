@@ -161,14 +161,31 @@ public class ChooseActivity extends AppCompatActivity {
     }
 
     public void greek(){
-        b6.setOnTouchListener(new View.OnTouchListener() {
+        b6.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                if (arg1.getAction()==MotionEvent.ACTION_DOWN)
-                    b6.setBackground(getResources().getDrawable(R.drawable.greeklifeimage));
-                else if (arg1.getAction()==MotionEvent.ACTION_UP || arg1.getAction()== MotionEvent.ACTION_MOVE)
-                    b6.setBackground(getResources().getDrawable(R.drawable.greeklifeimageblur));
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this, GreekActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        b6.setOnTouchListener(new View.OnTouchListener() {
+
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        v.getBackground().setColorFilter(0xe06a7db, PorterDuff.Mode.SRC_ATOP);
+                        v.invalidate();
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP: {
+                        v.getBackground().clearColorFilter();
+                        v.invalidate();
+                        break;
+                    }
+                }
+                return false;
             }
         });
 

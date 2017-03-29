@@ -17,45 +17,34 @@
         android:layout_weight="0" >
 
         <Button
-            android:text="History 255B"
+            android:text="Greek Activities"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
             android:textSize="20dp"
-            android:background="@drawable/historyclass"
+            android:background="@drawable/partygreek"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="1" />
 
         <Button
-            android:text="Geology 150L"
+            android:text="Sororities"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
             android:textSize="20dp"
-            android:background="@drawable/geologyclass"
+            android:background="@drawable/sorgreek"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="1" />
 
         <Button
-            android:text="Art 100"
+            android:text="Fraternities"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"
             android:textSize="20dp"
-            android:background="@drawable/artclass"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:text="ECE 350"
-            android:layout_margin="5dp"
-            android:textColor="#FFFFFF"
-            android:gravity="bottom|right"
-            android:textSize="20dp"
-            android:background="@drawable/ececlass"
+            android:background="@drawable/fratgreek"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="1" />
