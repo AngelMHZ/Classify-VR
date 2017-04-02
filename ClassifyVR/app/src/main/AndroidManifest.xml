@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.angel.classifyvr">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -34,7 +34,10 @@
         <activity android:name=".VPACActivity" />
         <activity android:name=".ClubsActivity" />
         <activity android:name=".GreekActivity" />
-        <activity android:name=".HistoryPage"></activity>
+        <activity android:name=".HistoryPage" />
+        <activity android:name=".HistoryReview" />
+        <activity android:name=".BasketballPage" />
+        <activity android:name=".BasketballReview"></activity>
     </application>
 
 </manifest>

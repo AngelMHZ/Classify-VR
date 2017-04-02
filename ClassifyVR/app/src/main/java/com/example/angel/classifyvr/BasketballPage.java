@@ -4,16 +4,11 @@ import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.text.method.ScrollingMovementMethod;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -21,20 +16,20 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 import com.weiwangcn.betterspinner.library.BetterSpinner;
 
-public class HistoryPage extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+import static com.example.angel.classifyvr.HistoryPage.youTubePlayerView;
+
+public class BasketballPage extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
     public static final String API_KEY = "AIzaSyAPPEuKa6rCH6kuysnIZaakqiYvB_Z53C4";
-    public static String video_ID = "uC6joH8xlg0";
+    public static String video_ID = "P03MfxPNyF0";
     private static final String[] CLASSES = new String[] {
-            "African Studies 100", "Belgium 100", "Chicano 150A", "Jewish Studies 320", "Spain 100"
+            "CSUN V CSULB", "CSUN V CSUCI", "CSUN V CSUF", "CSUN V CSUH", "CSUN V CSULA"
     };
-
-    public static YouTubePlayerView youTubePlayerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_history_page);
+        setContentView(R.layout.activity_basketball_page);
 
         youTubePlayerView = (YouTubePlayerView) findViewById(R.id.videoPlayer);
         youTubePlayerView.initialize(API_KEY,this);
@@ -52,7 +47,7 @@ public class HistoryPage extends YouTubeBaseActivity implements YouTubePlayer.On
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HistoryPage.this, HistoryReview.class);
+                Intent intent = new Intent(BasketballPage.this, BasketballReview.class);
                 startActivity(intent);
             }
         });

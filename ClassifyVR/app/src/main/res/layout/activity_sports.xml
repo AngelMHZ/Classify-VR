@@ -18,6 +18,7 @@
 
         <Button
             android:text="BasketBall"
+            android:id="@+id/buttonBasketball"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

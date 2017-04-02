@@ -18,7 +18,7 @@
         android:id="@+id/ClassSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="African Studies 100"
+        android:hint="CSUN V CSULB"
         android:textColorHint="@color/colorAccent"
         android:textColor="@color/colorAccent"
         android:textAlignment="center"
@@ -44,7 +44,32 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="          Students will explore a variety of historical, theoretical, and cultural approaches to studying the African Diaspora. The assigned readings cover both the geographic and conceptual nature of the African Diaspora beginning on the African continent, moving through the Americas (North, South, and the Caribbean basin), and into Europe. It considers important issues in the construction of the African Diaspora, such as the formation of racial identities and social movements, the circulation of ideas and intellectuals, and the manner in which the intersection of race, class, gender, sexuality, location, language, and power influence how groups and individuals experience diaspora."
+
+        android:text="CSUN Women’s basketball faced off against Long Beach State University (LBSU) Friday afternoon in the semi finals of the Big West Tournament.
+
+Big West player of the year Channon Fluker was determined to show her selection was not a fluke, as she scored the Matadors’ first six points of the game.
+
+Northridge started off well, leading LBSU 8-3 to start the first quarter. The Matadors cooled down for the rest of the quarter getting outscored 17-9 and were trailing Long Beach 20-15 at the end of the first.
+
+In the second quarter, the Matadors were able to cut the deficit, but were unable to take the lead from the 49ers.
+
+Northridge tied the game on three separate occasions ending the first half down 36-35.
+
+In the first half, Fluker led the team in points (10) rebounds (7) and tied for minutes played (19).
+
+For Long Beach State, senior Raven Benton could not be stopped scoring 20 of the 49ers 36 first-half points in only 17 minutes.
+
+The third quarter was more of the same back and forth play as the score was tied on six separate occasions and the lead was changed on another six occasions. Going into the fourth quarter of the Big West semifinals the score was tied at 48.
+
+The Matadors struggled early in the fourth, allowing the 49ers to go on a 13-5 run to go down 61-53 over four minutes to play.
+
+However, Northridge did not go out quietly as they went on a 7-0 run, fueled by five points from Fluker. The Matadors were down 61-60 with 1:44 left in the game.
+
+Clutch defense by LBSU shut down the Matadors for the remainder of the game. Northridge only got two shots off in the last one minute and a half.
+
+In the 2016-2017 season the Matadors had three honorees. Fluker took home Big West Player of the Year, redshirt junior Serafina Maulupe earned All-Big West second team honors and Eliza Matthews is the Big West Freshman of the Year.
+
+Northridge finished the season with an 18-14 record and have 12 out of 13 players returning next season."
         android:maxLines = "50"
         android:scrollbars = "vertical"
         android:textColor="#FFFFFF"
