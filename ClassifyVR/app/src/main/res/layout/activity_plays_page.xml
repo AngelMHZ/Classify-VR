@@ -26,7 +26,8 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="          Students will explore a variety of historical, theoretical, and cultural approaches to studying the African Diaspora. The assigned readings cover both the geographic and conceptual nature of the African Diaspora beginning on the African continent, moving through the Americas (North, South, and the Caribbean basin), and into Europe. It considers important issues in the construction of the African Diaspora, such as the formation of racial identities and social movements, the circulation of ideas and intellectuals, and the manner in which the intersection of race, class, gender, sexuality, location, language, and power influence how groups and individuals experience diaspora."
+
+        android:text="A lively stage adaptation of the Academy Award-winning 1994 Disney film, The Lion King is the story of a young lion prince living in the flourishing African Pride Lands. Born into the royal family, precocious cub Simba spends his days exploring the sprawling savanna grasslands and idolizing his kingly father, Mufasa, while youthfully shirking the responsibility his position in life requires. When an unthinkable tragedy, orchestrated by Simba’s wicked uncle, Scar, takes his father’s life, Simba flees the Pride Lands, leaving his loss and the life he knew behind. Eventually companioned by two hilarious and unlikely friends, Simba starts anew. But when weight of responsibility and a desperate plea from the now ravaged Pride Lands come to find the adult prince, Simba must take on a formidable enemy, and fulfill his destiny to be king. A vibrant and exciting tale from the great creatives at Disney, The Lion King is a story of love and redemption that nobody should miss."
         android:maxLines = "50"
         android:scrollbars = "vertical"
         android:textColor="#FFFFFF"
@@ -75,7 +76,7 @@
         android:layout_toStartOf="@+id/checkBox" />
 
     <TextView
-        android:text="805"
+        android:text="3500"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -87,7 +88,7 @@
         android:layout_alignTop="@+id/checkBox" />
 
     <TextView
-        android:text="50"
+        android:text="500"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -102,7 +103,7 @@
         android:id="@+id/ClassSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="African Studies 100"
+        android:hint="The Lion King"
         android:textColorHint="@color/colorAccent"
         android:textColor="@color/colorAccent"
         android:textAlignment="center"

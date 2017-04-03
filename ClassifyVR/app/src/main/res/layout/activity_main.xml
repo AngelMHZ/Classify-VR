@@ -33,12 +33,16 @@
         <EditText
             style="@style/editText_style"
             android:hint="Username"
+            android:textColorHint="#D3D3D3"
+            android:textColor="#000000"
             android:inputType="textEmailAddress" />
 
         <EditText
 
             android:inputType="textPassword"
             android:hint="Password"
+            android:textColor="#000000"
+            android:textColorHint="#D3D3D3"
             style="@style/editText_style" />
 
         <Button

@@ -26,7 +26,14 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="          Students will explore a variety of historical, theoretical, and cultural approaches to studying the African Diaspora. The assigned readings cover both the geographic and conceptual nature of the African Diaspora beginning on the African continent, moving through the Americas (North, South, and the Caribbean basin), and into Europe. It considers important issues in the construction of the African Diaspora, such as the formation of racial identities and social movements, the circulation of ideas and intellectuals, and the manner in which the intersection of race, class, gender, sexuality, location, language, and power influence how groups and individuals experience diaspora."
+
+        android:text="Dubai is like nowhere else on the planet. Often claimed to be the world’s fastest-growing city, over the past four decades it has metamorphosed from a small Gulf trading centre to become one of the world’s most glamorous, spectacular and futuristic urban destinations, fuelled by a heady cocktail of petrodollars, visionary commercial acumen and naked ambition. Dubai’s ability to dream (and then achieve) the impossible has ripped up expectations and rewritten the record books, as evidenced by stunning developments such as the soaring Burj Khalifa, the beautiful Burj al Arab and the vast Palm Jumeirah island – testament to the ruling sheikhs’ determination to make the city one of the world’s essential destinations for the twenty-first century.
+
+
+Modern Dubai is frequently seen as a panegyric to consumerist luxury: a self-indulgent haven of magical hotels, superlative restaurants and extravagantly themed shopping malls. Perhaps not surprisingly the city is often stereotyped as a vacuous consumerist fleshpot, appealing only to those with more cash than culture, although this one-eyed cliché does absolutely no justice to Dubai’s beguiling contrasts and rich cultural make-up. The city’s headline-grabbing mega-projects have also deflected attention from Dubai’s role in providing the Islamic world with a model of political stability and religious tolerance, showing what can be achieved by a peaceful and progressive regime in one of the planet’s most troubled regions.
+
+
+For the visitor, there’s far more to Dubai than designer boutiques and five-star hotels – although of course if all you’re looking for is a luxurious dose of sun, sand and shopping, the city takes some beating. If you want to step beyond the tourist clichés, however, you’ll find that Dubai has much more to offer than you might think, ranging from the fascinating old city centre, with its higgledy-piggledy labyrinth of bustling souks interspersed with fine old traditional Arabian houses, to the memorably quirky postmodern architectural skylines of the southern parts of the city. Dubai’s human geography is no less memorable, featuring a cosmopolitan assortment of Emiratis, Arabs, Iranians, Indians, Filipinos and Europeans – a fascinating patchwork of peoples and languages that gives the city its uniquely varied cultural appeal. The credit crunch may have pushed Dubai to the verge of bankruptcy but pronouncements of its imminent demise proved wildly premature, and the city remains one of the twenty-first century’s most fascinating and vibrant urban experiments in progress. Visit now to see history, literally, in the making."
         android:maxLines = "50"
         android:scrollbars = "vertical"
         android:textColor="#FFFFFF"
@@ -75,7 +82,7 @@
         android:layout_toStartOf="@+id/checkBox" />
 
     <TextView
-        android:text="805"
+        android:text="954"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -87,7 +94,7 @@
         android:layout_alignTop="@+id/checkBox" />
 
     <TextView
-        android:text="50"
+        android:text="99"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -102,7 +109,7 @@
         android:id="@+id/ClassSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="African Studies 100"
+        android:hint="Dubai"
         android:textColorHint="@color/colorAccent"
         android:textColor="@color/colorAccent"
         android:textAlignment="center"

@@ -8,24 +8,6 @@
     android:background="@color/colorPrimaryDark"
     tools:context="com.example.angel.classifyvr.HistoryPage">
 
-    <com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/videoPlayer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </com.google.android.youtube.player.YouTubePlayerView>
-
-    <com.weiwangcn.betterspinner.library.BetterSpinner
-        android:id="@+id/ClassSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="CSUN V CSULB"
-        android:textColorHint="@color/colorAccent"
-        android:textColor="@color/colorAccent"
-        android:textAlignment="center"
-        android:layout_below="@+id/videoPlayer"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:text="Reviews"
         android:textSize="25dp"
@@ -118,7 +100,7 @@ Northridge finished the season with an 18-14 record and have 12 out of 13 player
         android:layout_toStartOf="@+id/checkBox" />
 
     <TextView
-        android:text="805"
+        android:text="600"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -130,7 +112,7 @@ Northridge finished the season with an 18-14 record and have 12 out of 13 player
         android:layout_alignTop="@+id/checkBox" />
 
     <TextView
-        android:text="50"
+        android:text="2"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -140,6 +122,27 @@ Northridge finished the season with an 18-14 record and have 12 out of 13 player
         android:layout_toLeftOf="@+id/imageView2"
         android:layout_toStartOf="@+id/imageView2"
         android:layout_alignTop="@+id/textView" />
+
+    <com.weiwangcn.betterspinner.library.BetterSpinner
+        android:id="@+id/ClassSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CSUN V CSULB"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ClassSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.youtube.player.YouTubePlayerView>
 
 
 </RelativeLayout>

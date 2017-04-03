@@ -18,6 +18,7 @@
 
         <Button
             android:text="Travel"
+            android:id="@+id/buttonTravel"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

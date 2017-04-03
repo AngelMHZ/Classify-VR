@@ -18,6 +18,7 @@
 
         <Button
             android:text="Greek Activities"
+            android:id="@+id/buttonGreekAct"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

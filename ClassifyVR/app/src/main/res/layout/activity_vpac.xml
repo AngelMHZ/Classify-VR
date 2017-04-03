@@ -18,6 +18,7 @@
 
         <Button
             android:text="Plays"
+            android:id="@+id/buttonPlays"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
             android:gravity="bottom|right"

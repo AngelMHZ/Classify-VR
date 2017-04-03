@@ -26,7 +26,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="          Students will explore a variety of historical, theoretical, and cultural approaches to studying the African Diaspora. The assigned readings cover both the geographic and conceptual nature of the African Diaspora beginning on the African continent, moving through the Americas (North, South, and the Caribbean basin), and into Europe. It considers important issues in the construction of the African Diaspora, such as the formation of racial identities and social movements, the circulation of ideas and intellectuals, and the manner in which the intersection of race, class, gender, sexuality, location, language, and power influence how groups and individuals experience diaspora."
+        android:text="Football is a dynamic sport that demands peak physical performance and exceptional mental acuity on the part of its players. It is a game that is simple in essence but complex in application. At a fundamental level, football is basically a version of Capture the Flag; get to the opponent’s end of the field to win the drive and collect points. However, the game provides multiple layers of subtle complexity that contains both a strategic and a tactical dimension."
         android:maxLines = "50"
         android:scrollbars = "vertical"
         android:textColor="#FFFFFF"
@@ -75,7 +75,7 @@
         android:layout_toStartOf="@+id/checkBox" />
 
     <TextView
-        android:text="805"
+        android:text="1200"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
         android:layout_alignTop="@+id/checkBox" />
 
     <TextView
-        android:text="50"
+        android:text="250"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
         android:id="@+id/ClassSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="African Studies 100"
+        android:hint="Frat Football"
         android:textColorHint="@color/colorAccent"
         android:textColor="@color/colorAccent"
         android:textAlignment="center"
